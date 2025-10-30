@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', function () {
   const form = document.getElementById('contactForm');
   if (form) {
@@ -8,3 +9,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
+=======
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.getElementById('contactForm');
+  if (form) {
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      alert('Thank you for your message! I will get back to you soon.');
+      form.reset();
+    });
+  }
+});
+>>>>>>> 42f418425831391220001b234670db367fdd4960
